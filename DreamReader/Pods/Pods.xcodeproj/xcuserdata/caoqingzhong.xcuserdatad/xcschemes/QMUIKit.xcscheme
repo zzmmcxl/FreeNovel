@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '7DEC47E5E16E950D8395D9D394C7F313'
+               BlueprintIdentifier = '4A66A301B894FA6FE7324A6C8D5DA3B2'
                BlueprintName = 'QMUIKit'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'QMUIKit.framework'>

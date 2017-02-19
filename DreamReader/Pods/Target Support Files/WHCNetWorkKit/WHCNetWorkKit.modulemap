@@ -1,0 +1,6 @@
+framework module WHCNetWorkKit {
+  umbrella header "WHCNetWorkKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

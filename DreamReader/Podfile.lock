@@ -14,6 +14,19 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
+  - DKNightVersion (2.4.2):
+    - DKNightVersion/Core (= 2.4.2)
+    - DKNightVersion/CoreAnimation (= 2.4.2)
+    - DKNightVersion/UIKit (= 2.4.2)
+  - DKNightVersion/Core (2.4.2):
+    - DKNightVersion/Core/DeallocBlockExecutor (= 2.4.2)
+    - DKNightVersion/Core/extobjc (= 2.4.2)
+  - DKNightVersion/Core/DeallocBlockExecutor (2.4.2)
+  - DKNightVersion/Core/extobjc (2.4.2)
+  - DKNightVersion/CoreAnimation (2.4.2):
+    - DKNightVersion/Core
+  - DKNightVersion/UIKit (2.4.2):
+    - DKNightVersion/Core
   - FDFullscreenPopGesture (1.1)
   - IQKeyboardManager (4.0.8)
   - LCActionSheet (2.7.2):
@@ -34,9 +47,10 @@ PODS:
   - MMDrawerController/Subclass (0.6.0):
     - MMDrawerController/Core
   - QMUIKit (1.2)
-  - SDWebImage (3.8.2):
-    - SDWebImage/Core (= 3.8.2)
-  - SDWebImage/Core (3.8.2)
+  - Reachability (3.2)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
   - SWTableViewCell (0.3.7)
   - UMengUShare/Core (6.2.2):
     - UMengUShare/Network
@@ -47,9 +61,24 @@ PODS:
     - UMengUShare/Core
   - UMengUShare/Social/WeChat (6.2.2):
     - UMengUShare/Core
+  - WHCNetWorkKit (0.0.3):
+    - WHCNetWorkKit/NSURLConnection (= 0.0.3)
+    - WHCNetWorkKit/NSURLSession (= 0.0.3)
+    - WHCNetWorkKit/Reachability (= 0.0.3)
+    - WHCNetWorkKit/UIKit (= 0.0.3)
+    - WHCNetWorkKit/UtillKit (= 0.0.3)
+  - WHCNetWorkKit/NSURLConnection (0.0.3):
+    - WHCNetWorkKit/Reachability
+  - WHCNetWorkKit/NSURLSession (0.0.3):
+    - WHCNetWorkKit/NSURLConnection
+  - WHCNetWorkKit/Reachability (0.0.3)
+  - WHCNetWorkKit/UIKit (0.0.3):
+    - WHCNetWorkKit/NSURLConnection
+  - WHCNetWorkKit/UtillKit (0.0.3)
 
 DEPENDENCIES:
   - AFNetworking (~> 3.1.0)
+  - DKNightVersion (~> 2.4.2)
   - FDFullscreenPopGesture (= 1.1)
   - IQKeyboardManager (~> 4.0.8)
   - LCActionSheet (~> 2.7.2)
@@ -57,14 +86,17 @@ DEPENDENCIES:
   - MJRefresh (~> 3.1.12)
   - MMDrawerController (~> 0.6.0)
   - QMUIKit (~> 1.2)
-  - SDWebImage (~> 3.8.2)
+  - Reachability (~> 3.2)
+  - SDWebImage (~> 4.0.0)
   - SWTableViewCell (~> 0.3.7)
   - UMengUShare/Social/QQ
   - UMengUShare/Social/Sina
   - UMengUShare/Social/WeChat
+  - WHCNetWorkKit (~> 0.0.3)
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  DKNightVersion: a211bacb8d6a9677722aaf93e292a4e5908490c1
   FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
   IQKeyboardManager: 1a8189fa153bf09044355ee0ad36826f6767e7f7
   LCActionSheet: 2071dfc1834585cd7f57a234890cd0a96e4b6682
@@ -73,10 +105,12 @@ SPEC CHECKSUMS:
   MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
   MMDrawerController: e3a54a5570388463ad3b36975251575b50c4e1a0
   QMUIKit: 8657144089e3a825ceb3c0f0ffd96c8f5de0653a
-  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
   SWTableViewCell: 2a94aadc9d47b2b611fa064566bf57948b95b579
   UMengUShare: fc0a98b8d5297632e82874318fd72a10d17da228
+  WHCNetWorkKit: 169c27c8b8008e8f8d679277929777083a2379b9
 
-PODFILE CHECKSUM: 082b855dcd5ee88ae67b5acf9096dc606ed6f7e1
+PODFILE CHECKSUM: 0e2b7416e125279e4c70cf35e6b42471ace9742d
 
 COCOAPODS: 1.2.0

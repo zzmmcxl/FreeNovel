@@ -7,7 +7,7 @@ target 'DreamReader' do
 # Pods for DreamReader
 
 pod 'MMDrawerController', '~> 0.6.0'
-pod 'SDWebImage', '~> 3.8.2'
+pod 'SDWebImage', '~> 4.0.0'
 pod 'AFNetworking', '~> 3.1.0'
 
 pod 'IQKeyboardManager', '~> 4.0.8'
@@ -20,13 +20,16 @@ pod 'UMengUShare/Social/QQ'
 pod 'SWTableViewCell', '~> 0.3.7'
 pod 'MJRefresh', '~> 3.1.12'
 pod 'MBProgressHUD', '~> 1.0.0'
+#夜间模式
+pod 'DKNightVersion', '~> 2.4.2'
 #滑动返回
 pod 'FDFullscreenPopGesture', '1.1'
 #下载
-#pod 'WHCNetWorkKit', '~> 0.0.3'
-
-
+pod 'WHCNetWorkKit', '~> 0.0.3'
+#网络监测
+pod 'Reachability', '~> 3.2'
 pod 'QMUIKit', '~> 1.2'
+
 
   target 'DreamReaderTests' do
     inherit! :search_paths
