@@ -1,0 +1,737 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10AB607D1E59339700D6BC47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10AB607C1E59339700D6BC47 /* main.m */; };
+		10AB60801E59339700D6BC47 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10AB607F1E59339700D6BC47 /* AppDelegate.m */; };
+		10AB60831E59339700D6BC47 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10AB60821E59339700D6BC47 /* ViewController.m */; };
+		10AB60861E59339700D6BC47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10AB60841E59339700D6BC47 /* Main.storyboard */; };
+		10AB60881E59339700D6BC47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10AB60871E59339700D6BC47 /* Assets.xcassets */; };
+		10AB608B1E59339700D6BC47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10AB60891E59339700D6BC47 /* LaunchScreen.storyboard */; };
+		10AB60961E59339800D6BC47 /* DreamReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10AB60951E59339800D6BC47 /* DreamReaderTests.m */; };
+		10AB60A11E59339800D6BC47 /* DreamReaderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10AB60A01E59339800D6BC47 /* DreamReaderUITests.m */; };
+		1263DA4E323CBFA2D35E7D6A /* Pods_DreamReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6041D44C944748E5BDD87CA /* Pods_DreamReader.framework */; };
+		5A14223BCF4D7805A8EE9FB9 /* Pods_DreamReaderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C9D3158FC2F66EE657167C6 /* Pods_DreamReaderUITests.framework */; };
+		DDFADE38F331B4BF37F58F0C /* Pods_DreamReaderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A8B5DE22410E6C3129412A9 /* Pods_DreamReaderTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10AB60921E59339800D6BC47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10AB60701E59339700D6BC47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10AB60771E59339700D6BC47;
+			remoteInfo = DreamReader;
+		};
+		10AB609D1E59339800D6BC47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10AB60701E59339700D6BC47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10AB60771E59339700D6BC47;
+			remoteInfo = DreamReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10AB60781E59339700D6BC47 /* DreamReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DreamReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10AB607C1E59339700D6BC47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		10AB607E1E59339700D6BC47 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		10AB607F1E59339700D6BC47 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		10AB60811E59339700D6BC47 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		10AB60821E59339700D6BC47 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		10AB60851E59339700D6BC47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		10AB60871E59339700D6BC47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10AB608A1E59339700D6BC47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		10AB608C1E59339700D6BC47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10AB60911E59339800D6BC47 /* DreamReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DreamReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10AB60951E59339800D6BC47 /* DreamReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DreamReaderTests.m; sourceTree = "<group>"; };
+		10AB60971E59339800D6BC47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10AB609C1E59339800D6BC47 /* DreamReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DreamReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10AB60A01E59339800D6BC47 /* DreamReaderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DreamReaderUITests.m; sourceTree = "<group>"; };
+		10AB60A21E59339800D6BC47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		141950C8A6C35E3100C10DAE /* Pods-DreamReaderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DreamReaderUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DreamReaderUITests/Pods-DreamReaderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		15A3029F52BD5E5E922E431C /* Pods-DreamReaderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DreamReaderUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DreamReaderUITests/Pods-DreamReaderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6A8B5DE22410E6C3129412A9 /* Pods_DreamReaderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DreamReaderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		890E0E7D58F77C39DD1D5401 /* Pods-DreamReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DreamReader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DreamReader/Pods-DreamReader.debug.xcconfig"; sourceTree = "<group>"; };
+		99E141A271CC12DFFEA78DA2 /* Pods-DreamReaderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DreamReaderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DreamReaderTests/Pods-DreamReaderTests.release.xcconfig"; sourceTree = "<group>"; };
+		9C795F085EE417AFEE5591A6 /* Pods-DreamReader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DreamReader.release.xcconfig"; path = "Pods/Target Support Files/Pods-DreamReader/Pods-DreamReader.release.xcconfig"; sourceTree = "<group>"; };
+		9C9D3158FC2F66EE657167C6 /* Pods_DreamReaderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DreamReaderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEFB3F14D1B85A655A4F038D /* Pods-DreamReaderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DreamReaderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DreamReaderTests/Pods-DreamReaderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D6041D44C944748E5BDD87CA /* Pods_DreamReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DreamReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10AB60751E59339700D6BC47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1263DA4E323CBFA2D35E7D6A /* Pods_DreamReader.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10AB608E1E59339800D6BC47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDFADE38F331B4BF37F58F0C /* Pods_DreamReaderTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10AB60991E59339800D6BC47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A14223BCF4D7805A8EE9FB9 /* Pods_DreamReaderUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CF42D0201B45B8043DBD168 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6041D44C944748E5BDD87CA /* Pods_DreamReader.framework */,
+				6A8B5DE22410E6C3129412A9 /* Pods_DreamReaderTests.framework */,
+				9C9D3158FC2F66EE657167C6 /* Pods_DreamReaderUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		10AB606F1E59339700D6BC47 = {
+			isa = PBXGroup;
+			children = (
+				10AB607A1E59339700D6BC47 /* DreamReader */,
+				10AB60941E59339800D6BC47 /* DreamReaderTests */,
+				10AB609F1E59339800D6BC47 /* DreamReaderUITests */,
+				10AB60791E59339700D6BC47 /* Products */,
+				378D9A7F0478299002560AB7 /* Pods */,
+				0CF42D0201B45B8043DBD168 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		10AB60791E59339700D6BC47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10AB60781E59339700D6BC47 /* DreamReader.app */,
+				10AB60911E59339800D6BC47 /* DreamReaderTests.xctest */,
+				10AB609C1E59339800D6BC47 /* DreamReaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10AB607A1E59339700D6BC47 /* DreamReader */ = {
+			isa = PBXGroup;
+			children = (
+				10AB607E1E59339700D6BC47 /* AppDelegate.h */,
+				10AB607F1E59339700D6BC47 /* AppDelegate.m */,
+				10AB60811E59339700D6BC47 /* ViewController.h */,
+				10AB60821E59339700D6BC47 /* ViewController.m */,
+				10AB60841E59339700D6BC47 /* Main.storyboard */,
+				10AB60871E59339700D6BC47 /* Assets.xcassets */,
+				10AB60891E59339700D6BC47 /* LaunchScreen.storyboard */,
+				10AB608C1E59339700D6BC47 /* Info.plist */,
+				10AB607B1E59339700D6BC47 /* Supporting Files */,
+			);
+			path = DreamReader;
+			sourceTree = "<group>";
+		};
+		10AB607B1E59339700D6BC47 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				10AB607C1E59339700D6BC47 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		10AB60941E59339800D6BC47 /* DreamReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				10AB60951E59339800D6BC47 /* DreamReaderTests.m */,
+				10AB60971E59339800D6BC47 /* Info.plist */,
+			);
+			path = DreamReaderTests;
+			sourceTree = "<group>";
+		};
+		10AB609F1E59339800D6BC47 /* DreamReaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				10AB60A01E59339800D6BC47 /* DreamReaderUITests.m */,
+				10AB60A21E59339800D6BC47 /* Info.plist */,
+			);
+			path = DreamReaderUITests;
+			sourceTree = "<group>";
+		};
+		378D9A7F0478299002560AB7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				890E0E7D58F77C39DD1D5401 /* Pods-DreamReader.debug.xcconfig */,
+				9C795F085EE417AFEE5591A6 /* Pods-DreamReader.release.xcconfig */,
+				BEFB3F14D1B85A655A4F038D /* Pods-DreamReaderTests.debug.xcconfig */,
+				99E141A271CC12DFFEA78DA2 /* Pods-DreamReaderTests.release.xcconfig */,
+				141950C8A6C35E3100C10DAE /* Pods-DreamReaderUITests.debug.xcconfig */,
+				15A3029F52BD5E5E922E431C /* Pods-DreamReaderUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10AB60771E59339700D6BC47 /* DreamReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10AB60A51E59339800D6BC47 /* Build configuration list for PBXNativeTarget "DreamReader" */;
+			buildPhases = (
+				039CF4EF02D2793A1C579D4A /* [CP] Check Pods Manifest.lock */,
+				10AB60741E59339700D6BC47 /* Sources */,
+				10AB60751E59339700D6BC47 /* Frameworks */,
+				10AB60761E59339700D6BC47 /* Resources */,
+				7FEFBF733E908A33B9F8404A /* [CP] Embed Pods Frameworks */,
+				F1675179F8ABE2689D920DB7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DreamReader;
+			productName = DreamReader;
+			productReference = 10AB60781E59339700D6BC47 /* DreamReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		10AB60901E59339800D6BC47 /* DreamReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10AB60A81E59339800D6BC47 /* Build configuration list for PBXNativeTarget "DreamReaderTests" */;
+			buildPhases = (
+				DCFED5384FF6A5688D73EB08 /* [CP] Check Pods Manifest.lock */,
+				10AB608D1E59339800D6BC47 /* Sources */,
+				10AB608E1E59339800D6BC47 /* Frameworks */,
+				10AB608F1E59339800D6BC47 /* Resources */,
+				E36A5D34507CA13D7858205A /* [CP] Embed Pods Frameworks */,
+				F1F717B61254505DF4842FBE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10AB60931E59339800D6BC47 /* PBXTargetDependency */,
+			);
+			name = DreamReaderTests;
+			productName = DreamReaderTests;
+			productReference = 10AB60911E59339800D6BC47 /* DreamReaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		10AB609B1E59339800D6BC47 /* DreamReaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10AB60AB1E59339800D6BC47 /* Build configuration list for PBXNativeTarget "DreamReaderUITests" */;
+			buildPhases = (
+				44724B7D998B8C7409966F81 /* [CP] Check Pods Manifest.lock */,
+				10AB60981E59339800D6BC47 /* Sources */,
+				10AB60991E59339800D6BC47 /* Frameworks */,
+				10AB609A1E59339800D6BC47 /* Resources */,
+				B306CE294EB3320BD3021C1C /* [CP] Embed Pods Frameworks */,
+				5A5A85EA4D110363CAACE24D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10AB609E1E59339800D6BC47 /* PBXTargetDependency */,
+			);
+			name = DreamReaderUITests;
+			productName = DreamReaderUITests;
+			productReference = 10AB609C1E59339800D6BC47 /* DreamReaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10AB60701E59339700D6BC47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = cqz;
+				TargetAttributes = {
+					10AB60771E59339700D6BC47 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6W5UTJ2U6X;
+						ProvisioningStyle = Automatic;
+					};
+					10AB60901E59339800D6BC47 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6W5UTJ2U6X;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 10AB60771E59339700D6BC47;
+					};
+					10AB609B1E59339800D6BC47 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6W5UTJ2U6X;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 10AB60771E59339700D6BC47;
+					};
+				};
+			};
+			buildConfigurationList = 10AB60731E59339700D6BC47 /* Build configuration list for PBXProject "DreamReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10AB606F1E59339700D6BC47;
+			productRefGroup = 10AB60791E59339700D6BC47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10AB60771E59339700D6BC47 /* DreamReader */,
+				10AB60901E59339800D6BC47 /* DreamReaderTests */,
+				10AB609B1E59339800D6BC47 /* DreamReaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10AB60761E59339700D6BC47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10AB608B1E59339700D6BC47 /* LaunchScreen.storyboard in Resources */,
+				10AB60881E59339700D6BC47 /* Assets.xcassets in Resources */,
+				10AB60861E59339700D6BC47 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10AB608F1E59339800D6BC47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10AB609A1E59339800D6BC47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		039CF4EF02D2793A1C579D4A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		44724B7D998B8C7409966F81 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5A5A85EA4D110363CAACE24D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DreamReaderUITests/Pods-DreamReaderUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FEFBF733E908A33B9F8404A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DreamReader/Pods-DreamReader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B306CE294EB3320BD3021C1C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DreamReaderUITests/Pods-DreamReaderUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCFED5384FF6A5688D73EB08 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E36A5D34507CA13D7858205A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DreamReaderTests/Pods-DreamReaderTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1675179F8ABE2689D920DB7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DreamReader/Pods-DreamReader-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1F717B61254505DF4842FBE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DreamReaderTests/Pods-DreamReaderTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10AB60741E59339700D6BC47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10AB60831E59339700D6BC47 /* ViewController.m in Sources */,
+				10AB60801E59339700D6BC47 /* AppDelegate.m in Sources */,
+				10AB607D1E59339700D6BC47 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10AB608D1E59339800D6BC47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10AB60961E59339800D6BC47 /* DreamReaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10AB60981E59339800D6BC47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10AB60A11E59339800D6BC47 /* DreamReaderUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10AB60931E59339800D6BC47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10AB60771E59339700D6BC47 /* DreamReader */;
+			targetProxy = 10AB60921E59339800D6BC47 /* PBXContainerItemProxy */;
+		};
+		10AB609E1E59339800D6BC47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10AB60771E59339700D6BC47 /* DreamReader */;
+			targetProxy = 10AB609D1E59339800D6BC47 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		10AB60841E59339700D6BC47 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10AB60851E59339700D6BC47 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		10AB60891E59339700D6BC47 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10AB608A1E59339700D6BC47 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10AB60A31E59339800D6BC47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		10AB60A41E59339800D6BC47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10AB60A61E59339800D6BC47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 890E0E7D58F77C39DD1D5401 /* Pods-DreamReader.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6W5UTJ2U6X;
+				INFOPLIST_FILE = DreamReader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cqz.DreamReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
+			};
+			name = Debug;
+		};
+		10AB60A71E59339800D6BC47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C795F085EE417AFEE5591A6 /* Pods-DreamReader.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6W5UTJ2U6X;
+				INFOPLIST_FILE = DreamReader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cqz.DreamReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
+			};
+			name = Release;
+		};
+		10AB60A91E59339800D6BC47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEFB3F14D1B85A655A4F038D /* Pods-DreamReaderTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6W5UTJ2U6X;
+				INFOPLIST_FILE = DreamReaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cqz.DreamReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DreamReader.app/DreamReader";
+			};
+			name = Debug;
+		};
+		10AB60AA1E59339800D6BC47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99E141A271CC12DFFEA78DA2 /* Pods-DreamReaderTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6W5UTJ2U6X;
+				INFOPLIST_FILE = DreamReaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cqz.DreamReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DreamReader.app/DreamReader";
+			};
+			name = Release;
+		};
+		10AB60AC1E59339800D6BC47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 141950C8A6C35E3100C10DAE /* Pods-DreamReaderUITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6W5UTJ2U6X;
+				INFOPLIST_FILE = DreamReaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cqz.DreamReaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DreamReader;
+			};
+			name = Debug;
+		};
+		10AB60AD1E59339800D6BC47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15A3029F52BD5E5E922E431C /* Pods-DreamReaderUITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6W5UTJ2U6X;
+				INFOPLIST_FILE = DreamReaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cqz.DreamReaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DreamReader;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10AB60731E59339700D6BC47 /* Build configuration list for PBXProject "DreamReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10AB60A31E59339800D6BC47 /* Debug */,
+				10AB60A41E59339800D6BC47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10AB60A51E59339800D6BC47 /* Build configuration list for PBXNativeTarget "DreamReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10AB60A61E59339800D6BC47 /* Debug */,
+				10AB60A71E59339800D6BC47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10AB60A81E59339800D6BC47 /* Build configuration list for PBXNativeTarget "DreamReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10AB60A91E59339800D6BC47 /* Debug */,
+				10AB60AA1E59339800D6BC47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10AB60AB1E59339800D6BC47 /* Build configuration list for PBXNativeTarget "DreamReaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10AB60AC1E59339800D6BC47 /* Debug */,
+				10AB60AD1E59339800D6BC47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10AB60701E59339700D6BC47 /* Project object */;
+}
