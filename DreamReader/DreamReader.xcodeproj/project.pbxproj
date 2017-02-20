@@ -9,14 +9,31 @@
 /* Begin PBXBuildFile section */
 		10AB607D1E59339700D6BC47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10AB607C1E59339700D6BC47 /* main.m */; };
 		10AB60801E59339700D6BC47 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10AB607F1E59339700D6BC47 /* AppDelegate.m */; };
-		10AB60831E59339700D6BC47 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10AB60821E59339700D6BC47 /* ViewController.m */; };
-		10AB60861E59339700D6BC47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10AB60841E59339700D6BC47 /* Main.storyboard */; };
-		10AB60881E59339700D6BC47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10AB60871E59339700D6BC47 /* Assets.xcassets */; };
 		10AB608B1E59339700D6BC47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10AB60891E59339700D6BC47 /* LaunchScreen.storyboard */; };
 		10AB60961E59339800D6BC47 /* DreamReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10AB60951E59339800D6BC47 /* DreamReaderTests.m */; };
 		10AB60A11E59339800D6BC47 /* DreamReaderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10AB60A01E59339800D6BC47 /* DreamReaderUITests.m */; };
 		1263DA4E323CBFA2D35E7D6A /* Pods_DreamReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6041D44C944748E5BDD87CA /* Pods_DreamReader.framework */; };
 		5A14223BCF4D7805A8EE9FB9 /* Pods_DreamReaderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C9D3158FC2F66EE657167C6 /* Pods_DreamReaderUITests.framework */; };
+		9A625CBA1E5AB3A0005A5BFA /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A625CB51E5AB3A0005A5BFA /* BaseViewController.m */; };
+		9A625CBB1E5AB3A0005A5BFA /* DTApiBaseBean.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A625CB81E5AB3A0005A5BFA /* DTApiBaseBean.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9A625CBE1E5AB417005A5BFA /* ReaderTabBarControllerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A625CBD1E5AB417005A5BFA /* ReaderTabBarControllerConfig.m */; };
+		9A625CD41E5AB7DF005A5BFA /* JKCountDownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A625CC41E5AB7DF005A5BFA /* JKCountDownButton.m */; };
+		9A625CD51E5AB7DF005A5BFA /* QDMultipleImagePickerPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A625CC71E5AB7DF005A5BFA /* QDMultipleImagePickerPreviewViewController.m */; };
+		9A625CD61E5AB7DF005A5BFA /* QDSingleImagePickerPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A625CC91E5AB7DF005A5BFA /* QDSingleImagePickerPreviewViewController.m */; };
+		9A625CD71E5AB7DF005A5BFA /* QDUIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A625CCB1E5AB7DF005A5BFA /* QDUIHelper.m */; };
+		9A625CD81E5AB7DF005A5BFA /* QZAlbumHelperUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A625CCD1E5AB7DF005A5BFA /* QZAlbumHelperUtils.m */; };
+		9A625CD91E5AB7DF005A5BFA /* QZAlbumHelperView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A625CCF1E5AB7DF005A5BFA /* QZAlbumHelperView.m */; };
+		9A625CDA1E5AB7DF005A5BFA /* libUMessage_Sdk_1.4.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A625CD21E5AB7DF005A5BFA /* libUMessage_Sdk_1.4.0.a */; };
+		9AA422D61E5AC3F700E4E801 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA422D51E5AC3F700E4E801 /* UserNotifications.framework */; };
+		9AA422DD1E5AC4A300E4E801 /* BookShelfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA422DC1E5AC4A300E4E801 /* BookShelfViewController.m */; };
+		9AA422E01E5AC4B300E4E801 /* BookStoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA422DF1E5AC4B300E4E801 /* BookStoreViewController.m */; };
+		9AA422E71E5AC50000E4E801 /* SetingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA422E61E5AC50000E4E801 /* SetingViewController.m */; };
+		9AA422EA1E5AC53000E4E801 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA422E91E5AC53000E4E801 /* SearchViewController.m */; };
+		9AA422EE1E5ADAA300E4E801 /* userinfo_top_bg@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AA422ED1E5ADAA300E4E801 /* userinfo_top_bg@2x.jpg */; };
+		9AA422FA1E5AE21F00E4E801 /* CorePullScaleImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA422F71E5AE21F00E4E801 /* CorePullScaleImageView.m */; };
+		9AA422FB1E5AE21F00E4E801 /* UIScrollView+PullScale.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA422F91E5AE21F00E4E801 /* UIScrollView+PullScale.m */; };
+		9AA422FD1E5AEDAB00E4E801 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AA422FC1E5AEDAB00E4E801 /* Assets.xcassets */; };
+		9AA423001E5AEE1D00E4E801 /* SetingTabViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA422FF1E5AEE1D00E4E801 /* SetingTabViewCell.m */; };
 		DDFADE38F331B4BF37F58F0C /* Pods_DreamReaderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A8B5DE22410E6C3129412A9 /* Pods_DreamReaderTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,10 +59,6 @@
 		10AB607C1E59339700D6BC47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		10AB607E1E59339700D6BC47 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		10AB607F1E59339700D6BC47 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		10AB60811E59339700D6BC47 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		10AB60821E59339700D6BC47 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		10AB60851E59339700D6BC47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		10AB60871E59339700D6BC47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10AB608A1E59339700D6BC47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		10AB608C1E59339700D6BC47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10AB60911E59339800D6BC47 /* DreamReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DreamReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,6 +72,47 @@
 		6A8B5DE22410E6C3129412A9 /* Pods_DreamReaderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DreamReaderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		890E0E7D58F77C39DD1D5401 /* Pods-DreamReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DreamReader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DreamReader/Pods-DreamReader.debug.xcconfig"; sourceTree = "<group>"; };
 		99E141A271CC12DFFEA78DA2 /* Pods-DreamReaderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DreamReaderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DreamReaderTests/Pods-DreamReaderTests.release.xcconfig"; sourceTree = "<group>"; };
+		9A625CB41E5AB3A0005A5BFA /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		9A625CB51E5AB3A0005A5BFA /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		9A625CB71E5AB3A0005A5BFA /* DTApiBaseBean.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTApiBaseBean.h; sourceTree = "<group>"; };
+		9A625CB81E5AB3A0005A5BFA /* DTApiBaseBean.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTApiBaseBean.m; sourceTree = "<group>"; };
+		9A625CBC1E5AB417005A5BFA /* ReaderTabBarControllerConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderTabBarControllerConfig.h; sourceTree = "<group>"; };
+		9A625CBD1E5AB417005A5BFA /* ReaderTabBarControllerConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderTabBarControllerConfig.m; sourceTree = "<group>"; };
+		9A625CC01E5AB494005A5BFA /* ReaderPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderPrefixHeader.pch; sourceTree = "<group>"; };
+		9A625CC31E5AB7DF005A5BFA /* JKCountDownButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKCountDownButton.h; sourceTree = "<group>"; };
+		9A625CC41E5AB7DF005A5BFA /* JKCountDownButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKCountDownButton.m; sourceTree = "<group>"; };
+		9A625CC61E5AB7DF005A5BFA /* QDMultipleImagePickerPreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDMultipleImagePickerPreviewViewController.h; sourceTree = "<group>"; };
+		9A625CC71E5AB7DF005A5BFA /* QDMultipleImagePickerPreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDMultipleImagePickerPreviewViewController.m; sourceTree = "<group>"; };
+		9A625CC81E5AB7DF005A5BFA /* QDSingleImagePickerPreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDSingleImagePickerPreviewViewController.h; sourceTree = "<group>"; };
+		9A625CC91E5AB7DF005A5BFA /* QDSingleImagePickerPreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDSingleImagePickerPreviewViewController.m; sourceTree = "<group>"; };
+		9A625CCA1E5AB7DF005A5BFA /* QDUIHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDUIHelper.h; sourceTree = "<group>"; };
+		9A625CCB1E5AB7DF005A5BFA /* QDUIHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDUIHelper.m; sourceTree = "<group>"; };
+		9A625CCC1E5AB7DF005A5BFA /* QZAlbumHelperUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZAlbumHelperUtils.h; sourceTree = "<group>"; };
+		9A625CCD1E5AB7DF005A5BFA /* QZAlbumHelperUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZAlbumHelperUtils.m; sourceTree = "<group>"; };
+		9A625CCE1E5AB7DF005A5BFA /* QZAlbumHelperView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZAlbumHelperView.h; sourceTree = "<group>"; };
+		9A625CCF1E5AB7DF005A5BFA /* QZAlbumHelperView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZAlbumHelperView.m; sourceTree = "<group>"; };
+		9A625CD21E5AB7DF005A5BFA /* libUMessage_Sdk_1.4.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUMessage_Sdk_1.4.0.a; sourceTree = "<group>"; };
+		9A625CD31E5AB7DF005A5BFA /* UMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMessage.h; sourceTree = "<group>"; };
+		9A625CDB1E5AB92F005A5BFA /* DefineHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefineHeader.h; sourceTree = "<group>"; };
+		9AA422D11E5AC38E00E4E801 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		9AA422D31E5AC3EA00E4E801 /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
+		9AA422D51E5AC3F700E4E801 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		9AA422DB1E5AC4A300E4E801 /* BookShelfViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookShelfViewController.h; sourceTree = "<group>"; };
+		9AA422DC1E5AC4A300E4E801 /* BookShelfViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookShelfViewController.m; sourceTree = "<group>"; };
+		9AA422DE1E5AC4B300E4E801 /* BookStoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookStoreViewController.h; sourceTree = "<group>"; };
+		9AA422DF1E5AC4B300E4E801 /* BookStoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookStoreViewController.m; sourceTree = "<group>"; };
+		9AA422E51E5AC50000E4E801 /* SetingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetingViewController.h; sourceTree = "<group>"; };
+		9AA422E61E5AC50000E4E801 /* SetingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetingViewController.m; sourceTree = "<group>"; };
+		9AA422E81E5AC53000E4E801 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		9AA422E91E5AC53000E4E801 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		9AA422ED1E5ADAA300E4E801 /* userinfo_top_bg@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "userinfo_top_bg@2x.jpg"; sourceTree = "<group>"; };
+		9AA422F61E5AE21F00E4E801 /* CorePullScaleImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CorePullScaleImageView.h; sourceTree = "<group>"; };
+		9AA422F71E5AE21F00E4E801 /* CorePullScaleImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CorePullScaleImageView.m; sourceTree = "<group>"; };
+		9AA422F81E5AE21F00E4E801 /* UIScrollView+PullScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+PullScale.h"; sourceTree = "<group>"; };
+		9AA422F91E5AE21F00E4E801 /* UIScrollView+PullScale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+PullScale.m"; sourceTree = "<group>"; };
+		9AA422FC1E5AEDAB00E4E801 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9AA422FE1E5AEE1D00E4E801 /* SetingTabViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetingTabViewCell.h; sourceTree = "<group>"; };
+		9AA422FF1E5AEE1D00E4E801 /* SetingTabViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetingTabViewCell.m; sourceTree = "<group>"; };
 		9C795F085EE417AFEE5591A6 /* Pods-DreamReader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DreamReader.release.xcconfig"; path = "Pods/Target Support Files/Pods-DreamReader/Pods-DreamReader.release.xcconfig"; sourceTree = "<group>"; };
 		9C9D3158FC2F66EE657167C6 /* Pods_DreamReaderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DreamReaderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEFB3F14D1B85A655A4F038D /* Pods-DreamReaderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DreamReaderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DreamReaderTests/Pods-DreamReaderTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -70,6 +124,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AA422D61E5AC3F700E4E801 /* UserNotifications.framework in Frameworks */,
+				9A625CDA1E5AB7DF005A5BFA /* libUMessage_Sdk_1.4.0.a in Frameworks */,
 				1263DA4E323CBFA2D35E7D6A /* Pods_DreamReader.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -96,6 +152,9 @@
 		0CF42D0201B45B8043DBD168 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9AA422D51E5AC3F700E4E801 /* UserNotifications.framework */,
+				9AA422D31E5AC3EA00E4E801 /* UserNotificationsUI.framework */,
+				9AA422D11E5AC38E00E4E801 /* AddressBookUI.framework */,
 				D6041D44C944748E5BDD87CA /* Pods_DreamReader.framework */,
 				6A8B5DE22410E6C3129412A9 /* Pods_DreamReaderTests.framework */,
 				9C9D3158FC2F66EE657167C6 /* Pods_DreamReaderUITests.framework */,
@@ -130,12 +189,14 @@
 			children = (
 				10AB607E1E59339700D6BC47 /* AppDelegate.h */,
 				10AB607F1E59339700D6BC47 /* AppDelegate.m */,
-				10AB60811E59339700D6BC47 /* ViewController.h */,
-				10AB60821E59339700D6BC47 /* ViewController.m */,
-				10AB60841E59339700D6BC47 /* Main.storyboard */,
-				10AB60871E59339700D6BC47 /* Assets.xcassets */,
+				9A625CA51E5A966C005A5BFA /* Modules */,
+				9A625CA41E5A966C005A5BFA /* CommonUI */,
+				9A625CAE1E5A966C005A5BFA /* NetWorkManger */,
+				9A625CAF1E5A966C005A5BFA /* Resource */,
+				9A625CB01E5A966C005A5BFA /* TOOLS */,
 				10AB60891E59339700D6BC47 /* LaunchScreen.storyboard */,
 				10AB608C1E59339700D6BC47 /* Info.plist */,
+				9AA422FC1E5AEDAB00E4E801 /* Assets.xcassets */,
 				10AB607B1E59339700D6BC47 /* Supporting Files */,
 			);
 			path = DreamReader;
@@ -178,6 +239,254 @@
 				15A3029F52BD5E5E922E431C /* Pods-DreamReaderUITests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		9A625CA41E5A966C005A5BFA /* CommonUI */ = {
+			isa = PBXGroup;
+			children = (
+				9A625CBF1E5AB473005A5BFA /* DefineHeader */,
+				9A625CB31E5AB3A0005A5BFA /* Base */,
+				9A625CB61E5AB3A0005A5BFA /* Beans */,
+				9A625CB91E5AB3A0005A5BFA /* TabBarController */,
+			);
+			path = CommonUI;
+			sourceTree = "<group>";
+		};
+		9A625CA51E5A966C005A5BFA /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				9A625CA61E5A966C005A5BFA /* Book-House */,
+				9A625CAA1E5A966C005A5BFA /* RightMenu */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		9A625CA61E5A966C005A5BFA /* Book-House */ = {
+			isa = PBXGroup;
+			children = (
+				9A625CA71E5A966C005A5BFA /* Controllers */,
+				9A625CA81E5A966C005A5BFA /* Model */,
+				9A625CA91E5A966C005A5BFA /* View */,
+			);
+			path = "Book-House";
+			sourceTree = "<group>";
+		};
+		9A625CA71E5A966C005A5BFA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9AA422D71E5AC48B00E4E801 /* BookShelf */,
+				9AA422D81E5AC48B00E4E801 /* BookStore */,
+				9AA422E41E5AC50000E4E801 /* MineSeting */,
+				9AA422DA1E5AC48B00E4E801 /* SearchViewController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9A625CA81E5A966C005A5BFA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9A625CA91E5A966C005A5BFA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9AA422FE1E5AEE1D00E4E801 /* SetingTabViewCell.h */,
+				9AA422FF1E5AEE1D00E4E801 /* SetingTabViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9A625CAA1E5A966C005A5BFA /* RightMenu */ = {
+			isa = PBXGroup;
+			children = (
+				9A625CAB1E5A966C005A5BFA /* Controllers */,
+				9A625CAC1E5A966C005A5BFA /* Model */,
+				9A625CAD1E5A966C005A5BFA /* View */,
+			);
+			path = RightMenu;
+			sourceTree = "<group>";
+		};
+		9A625CAB1E5A966C005A5BFA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9A625CAC1E5A966C005A5BFA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9A625CAD1E5A966C005A5BFA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9A625CAE1E5A966C005A5BFA /* NetWorkManger */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetWorkManger;
+			sourceTree = "<group>";
+		};
+		9A625CAF1E5A966C005A5BFA /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				9AA422EC1E5ADAA300E4E801 /* Images */,
+				9A625CC11E5AB7DF005A5BFA /* Utility */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		9A625CB01E5A966C005A5BFA /* TOOLS */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TOOLS;
+			sourceTree = "<group>";
+		};
+		9A625CB31E5AB3A0005A5BFA /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				9A625CB41E5AB3A0005A5BFA /* BaseViewController.h */,
+				9A625CB51E5AB3A0005A5BFA /* BaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		9A625CB61E5AB3A0005A5BFA /* Beans */ = {
+			isa = PBXGroup;
+			children = (
+				9A625CB71E5AB3A0005A5BFA /* DTApiBaseBean.h */,
+				9A625CB81E5AB3A0005A5BFA /* DTApiBaseBean.m */,
+			);
+			path = Beans;
+			sourceTree = "<group>";
+		};
+		9A625CB91E5AB3A0005A5BFA /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				9A625CBC1E5AB417005A5BFA /* ReaderTabBarControllerConfig.h */,
+				9A625CBD1E5AB417005A5BFA /* ReaderTabBarControllerConfig.m */,
+			);
+			path = TabBarController;
+			sourceTree = "<group>";
+		};
+		9A625CBF1E5AB473005A5BFA /* DefineHeader */ = {
+			isa = PBXGroup;
+			children = (
+				9A625CC01E5AB494005A5BFA /* ReaderPrefixHeader.pch */,
+				9A625CDB1E5AB92F005A5BFA /* DefineHeader.h */,
+			);
+			path = DefineHeader;
+			sourceTree = "<group>";
+		};
+		9A625CC11E5AB7DF005A5BFA /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				9AA422F51E5AE21F00E4E801 /* CorePullScale */,
+				9A625CC21E5AB7DF005A5BFA /* JKCountDownButton */,
+				9A625CC51E5AB7DF005A5BFA /* QMUIKit */,
+				9A625CD11E5AB7DF005A5BFA /* UMessage_Sdk_1.4.0 */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		9A625CC21E5AB7DF005A5BFA /* JKCountDownButton */ = {
+			isa = PBXGroup;
+			children = (
+				9A625CC31E5AB7DF005A5BFA /* JKCountDownButton.h */,
+				9A625CC41E5AB7DF005A5BFA /* JKCountDownButton.m */,
+			);
+			path = JKCountDownButton;
+			sourceTree = "<group>";
+		};
+		9A625CC51E5AB7DF005A5BFA /* QMUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				9A625CC61E5AB7DF005A5BFA /* QDMultipleImagePickerPreviewViewController.h */,
+				9A625CC71E5AB7DF005A5BFA /* QDMultipleImagePickerPreviewViewController.m */,
+				9A625CC81E5AB7DF005A5BFA /* QDSingleImagePickerPreviewViewController.h */,
+				9A625CC91E5AB7DF005A5BFA /* QDSingleImagePickerPreviewViewController.m */,
+				9A625CCA1E5AB7DF005A5BFA /* QDUIHelper.h */,
+				9A625CCB1E5AB7DF005A5BFA /* QDUIHelper.m */,
+				9A625CCC1E5AB7DF005A5BFA /* QZAlbumHelperUtils.h */,
+				9A625CCD1E5AB7DF005A5BFA /* QZAlbumHelperUtils.m */,
+				9A625CCE1E5AB7DF005A5BFA /* QZAlbumHelperView.h */,
+				9A625CCF1E5AB7DF005A5BFA /* QZAlbumHelperView.m */,
+			);
+			path = QMUIKit;
+			sourceTree = "<group>";
+		};
+		9A625CD11E5AB7DF005A5BFA /* UMessage_Sdk_1.4.0 */ = {
+			isa = PBXGroup;
+			children = (
+				9A625CD21E5AB7DF005A5BFA /* libUMessage_Sdk_1.4.0.a */,
+				9A625CD31E5AB7DF005A5BFA /* UMessage.h */,
+			);
+			path = UMessage_Sdk_1.4.0;
+			sourceTree = "<group>";
+		};
+		9AA422D71E5AC48B00E4E801 /* BookShelf */ = {
+			isa = PBXGroup;
+			children = (
+				9AA422DB1E5AC4A300E4E801 /* BookShelfViewController.h */,
+				9AA422DC1E5AC4A300E4E801 /* BookShelfViewController.m */,
+			);
+			path = BookShelf;
+			sourceTree = "<group>";
+		};
+		9AA422D81E5AC48B00E4E801 /* BookStore */ = {
+			isa = PBXGroup;
+			children = (
+				9AA422DE1E5AC4B300E4E801 /* BookStoreViewController.h */,
+				9AA422DF1E5AC4B300E4E801 /* BookStoreViewController.m */,
+			);
+			path = BookStore;
+			sourceTree = "<group>";
+		};
+		9AA422DA1E5AC48B00E4E801 /* SearchViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9AA422E81E5AC53000E4E801 /* SearchViewController.h */,
+				9AA422E91E5AC53000E4E801 /* SearchViewController.m */,
+			);
+			path = SearchViewController;
+			sourceTree = "<group>";
+		};
+		9AA422E41E5AC50000E4E801 /* MineSeting */ = {
+			isa = PBXGroup;
+			children = (
+				9AA422E51E5AC50000E4E801 /* SetingViewController.h */,
+				9AA422E61E5AC50000E4E801 /* SetingViewController.m */,
+			);
+			path = MineSeting;
+			sourceTree = "<group>";
+		};
+		9AA422EC1E5ADAA300E4E801 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9AA422ED1E5ADAA300E4E801 /* userinfo_top_bg@2x.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		9AA422F51E5AE21F00E4E801 /* CorePullScale */ = {
+			isa = PBXGroup;
+			children = (
+				9AA422F61E5AE21F00E4E801 /* CorePullScaleImageView.h */,
+				9AA422F71E5AE21F00E4E801 /* CorePullScaleImageView.m */,
+				9AA422F81E5AE21F00E4E801 /* UIScrollView+PullScale.h */,
+				9AA422F91E5AE21F00E4E801 /* UIScrollView+PullScale.m */,
+			);
+			path = CorePullScale;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,8 +608,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				10AB608B1E59339700D6BC47 /* LaunchScreen.storyboard in Resources */,
-				10AB60881E59339700D6BC47 /* Assets.xcassets in Resources */,
-				10AB60861E59339700D6BC47 /* Main.storyboard in Resources */,
+				9AA422FD1E5AEDAB00E4E801 /* Assets.xcassets in Resources */,
+				9AA422EE1E5ADAA300E4E801 /* userinfo_top_bg@2x.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,8 +772,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10AB60831E59339700D6BC47 /* ViewController.m in Sources */,
+				9AA422E71E5AC50000E4E801 /* SetingViewController.m in Sources */,
+				9A625CBB1E5AB3A0005A5BFA /* DTApiBaseBean.m in Sources */,
+				9A625CD91E5AB7DF005A5BFA /* QZAlbumHelperView.m in Sources */,
+				9AA422DD1E5AC4A300E4E801 /* BookShelfViewController.m in Sources */,
+				9A625CD41E5AB7DF005A5BFA /* JKCountDownButton.m in Sources */,
+				9A625CD51E5AB7DF005A5BFA /* QDMultipleImagePickerPreviewViewController.m in Sources */,
+				9AA422EA1E5AC53000E4E801 /* SearchViewController.m in Sources */,
+				9AA422FA1E5AE21F00E4E801 /* CorePullScaleImageView.m in Sources */,
+				9A625CD71E5AB7DF005A5BFA /* QDUIHelper.m in Sources */,
+				9AA422E01E5AC4B300E4E801 /* BookStoreViewController.m in Sources */,
+				9A625CBE1E5AB417005A5BFA /* ReaderTabBarControllerConfig.m in Sources */,
+				9A625CBA1E5AB3A0005A5BFA /* BaseViewController.m in Sources */,
+				9A625CD81E5AB7DF005A5BFA /* QZAlbumHelperUtils.m in Sources */,
 				10AB60801E59339700D6BC47 /* AppDelegate.m in Sources */,
+				9AA422FB1E5AE21F00E4E801 /* UIScrollView+PullScale.m in Sources */,
+				9A625CD61E5AB7DF005A5BFA /* QDSingleImagePickerPreviewViewController.m in Sources */,
+				9AA423001E5AEE1D00E4E801 /* SetingTabViewCell.m in Sources */,
 				10AB607D1E59339700D6BC47 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -501,14 +825,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		10AB60841E59339700D6BC47 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				10AB60851E59339700D6BC47 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		10AB60891E59339700D6BC47 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -613,10 +929,16 @@
 			baseConfigurationReference = 890E0E7D58F77C39DD1D5401 /* Pods-DreamReader.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 6W5UTJ2U6X;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DreamReader/CommonUI/DefineHeader/ReaderPrefixHeader.pch";
 				INFOPLIST_FILE = DreamReader/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DreamReader/Resource/Utility/UMessage_Sdk_1.4.0",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.cqz.DreamReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
@@ -628,10 +950,16 @@
 			baseConfigurationReference = 9C795F085EE417AFEE5591A6 /* Pods-DreamReader.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 6W5UTJ2U6X;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DreamReader/CommonUI/DefineHeader/ReaderPrefixHeader.pch";
 				INFOPLIST_FILE = DreamReader/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DreamReader/Resource/Utility/UMessage_Sdk_1.4.0",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.cqz.DreamReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";

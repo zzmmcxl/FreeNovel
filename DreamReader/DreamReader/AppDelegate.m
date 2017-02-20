@@ -7,8 +7,11 @@
 //
 
 #import "AppDelegate.h"
+#import "AFNetworkActivityIndicatorManager.h"
+#import "QMUIConfigurationTemplate.h"
+#import "ReaderTabBarControllerConfig.h"
 
-@interface AppDelegate ()
+@interface AppDelegate () <UITabBarControllerDelegate>
 
 @end
 
@@ -16,10 +19,35 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    [self.window setBackgroundColor:[UIColor whiteColor]];
+    application.applicationIconBadgeNumber = 0;
+
+    
+    [self configurationQMUITemplate];
+    ReaderTabBarControllerConfig *tabBarControllerConfig = [[ReaderTabBarControllerConfig alloc] init];
+    tabBarControllerConfig.tabBarController.delegate = self;
+    [self.window setRootViewController:tabBarControllerConfig.tabBarController];
+    [self.window makeKeyAndVisible];
+
     return YES;
 }
 
+#pragma mark - 配置 QMUI
+- (void)configurationQMUITemplate {
+    
+    // 启动QMUI的配置模板
+    [QMUIConfigurationTemplate setupConfigurationTemplate];
+    
+    // 将全局的控件样式渲染出来
+    [QMUIConfigurationManager renderGlobalAppearances];
+    
+    [AFNetworkActivityIndicatorManager sharedManager].enabled = YES;
+    //设置缓存
+    NSURLCache *URLCache = [[NSURLCache alloc] initWithMemoryCapacity:4 * 1024 * 1024 diskCapacity:20 * 1024 * 1024 diskPath:nil];
+    [NSURLCache setSharedURLCache:URLCache];
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
