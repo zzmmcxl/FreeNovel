@@ -12,6 +12,7 @@
 		10AB608B1E59339700D6BC47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10AB60891E59339700D6BC47 /* LaunchScreen.storyboard */; };
 		10AB60961E59339800D6BC47 /* DreamReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10AB60951E59339800D6BC47 /* DreamReaderTests.m */; };
 		10AB60A11E59339800D6BC47 /* DreamReaderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10AB60A01E59339800D6BC47 /* DreamReaderUITests.m */; };
+		10F3BC761E5B3862002DA312 /* TheMoreOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F3BC751E5B3862002DA312 /* TheMoreOperation.m */; };
 		1263DA4E323CBFA2D35E7D6A /* Pods_DreamReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6041D44C944748E5BDD87CA /* Pods_DreamReader.framework */; };
 		5A14223BCF4D7805A8EE9FB9 /* Pods_DreamReaderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C9D3158FC2F66EE657167C6 /* Pods_DreamReaderUITests.framework */; };
 		9A625CBA1E5AB3A0005A5BFA /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A625CB51E5AB3A0005A5BFA /* BaseViewController.m */; };
@@ -67,6 +68,8 @@
 		10AB609C1E59339800D6BC47 /* DreamReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DreamReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		10AB60A01E59339800D6BC47 /* DreamReaderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DreamReaderUITests.m; sourceTree = "<group>"; };
 		10AB60A21E59339800D6BC47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10F3BC741E5B3862002DA312 /* TheMoreOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheMoreOperation.h; sourceTree = "<group>"; };
+		10F3BC751E5B3862002DA312 /* TheMoreOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheMoreOperation.m; sourceTree = "<group>"; };
 		141950C8A6C35E3100C10DAE /* Pods-DreamReaderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DreamReaderUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DreamReaderUITests/Pods-DreamReaderUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		15A3029F52BD5E5E922E431C /* Pods-DreamReaderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DreamReaderUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DreamReaderUITests/Pods-DreamReaderUITests.release.xcconfig"; sourceTree = "<group>"; };
 		6A8B5DE22410E6C3129412A9 /* Pods_DreamReaderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DreamReaderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -226,6 +229,15 @@
 				10AB60A21E59339800D6BC47 /* Info.plist */,
 			);
 			path = DreamReaderUITests;
+			sourceTree = "<group>";
+		};
+		10F3BC731E5B3862002DA312 /* TheMoreOperation */ = {
+			isa = PBXGroup;
+			children = (
+				10F3BC741E5B3862002DA312 /* TheMoreOperation.h */,
+				10F3BC751E5B3862002DA312 /* TheMoreOperation.m */,
+			);
+			path = TheMoreOperation;
 			sourceTree = "<group>";
 		};
 		378D9A7F0478299002560AB7 /* Pods */ = {
@@ -391,6 +403,7 @@
 		9A625CC11E5AB7DF005A5BFA /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				10F3BC731E5B3862002DA312 /* TheMoreOperation */,
 				9AA422F51E5AE21F00E4E801 /* CorePullScale */,
 				9A625CC21E5AB7DF005A5BFA /* JKCountDownButton */,
 				9A625CC51E5AB7DF005A5BFA /* QMUIKit */,
@@ -785,6 +798,7 @@
 				9A625CBE1E5AB417005A5BFA /* ReaderTabBarControllerConfig.m in Sources */,
 				9A625CBA1E5AB3A0005A5BFA /* BaseViewController.m in Sources */,
 				9A625CD81E5AB7DF005A5BFA /* QZAlbumHelperUtils.m in Sources */,
+				10F3BC761E5B3862002DA312 /* TheMoreOperation.m in Sources */,
 				10AB60801E59339700D6BC47 /* AppDelegate.m in Sources */,
 				9AA422FB1E5AE21F00E4E801 /* UIScrollView+PullScale.m in Sources */,
 				9A625CD61E5AB7DF005A5BFA /* QDSingleImagePickerPreviewViewController.m in Sources */,

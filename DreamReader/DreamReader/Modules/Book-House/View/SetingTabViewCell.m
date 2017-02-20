@@ -7,6 +7,7 @@
 //
 
 #import "SetingTabViewCell.h"
+#import <DKNightVersion/DKNightVersion.h>
 
 @implementation SetingTabViewCell
 
@@ -35,8 +36,8 @@
     _nameLab.text = titleArrays[section];
     [_headImg setImage:UIImageMake(imageArrays[section])];
     
-    _switchButton.hidden  = (section == 0) ? YES : NO;
-    self.accessoryType = (section == 0) ? UITableViewCellAccessoryDisclosureIndicator : UITableViewCellAccessoryNone;
+    _switchButton.hidden  = (section == 0) ? NO : YES;
+    self.accessoryType = (section == 0) ? UITableViewCellAccessoryNone : UITableViewCellAccessoryDisclosureIndicator;
 }
 #pragma mark -UIButtonEvent
 - (void)switchAction:(id)sender{
@@ -44,6 +45,13 @@
     UISwitch *switchButton = (UISwitch *)sender;
     BOOL isButton = [switchButton isOn];
     
+    self.dk_manager.themeVersion = DKThemeVersionNight;
+    if ([self.dk_manager.themeVersion isEqualToString:DKThemeVersionNight]) {
+        [self.dk_manager dawnComing];
+    } else {
+        [self.dk_manager nightFalling];
+    }
+
     if (isButton) {
         DLog(@"open");
         
@@ -75,7 +83,7 @@
     if (!_switchButton) {
         _switchButton = [[UISwitch alloc] initWithFrame:CGRectMake(SCREEN_WIDTH - 65.f, 7.f, 0, 30)];
         [_switchButton addTarget:self action:@selector(switchAction:) forControlEvents:UIControlEventValueChanged];
-        _switchButton.onTintColor = NavBarTintColor;
+        _switchButton.onTintColor = TabBarTintColor;
     }
     return _switchButton;
 }

@@ -39,11 +39,6 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>MMDrawerController.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Masonry.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -69,11 +64,6 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Reachability.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>SDWebImage.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -91,6 +81,82 @@
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
-	<dict/>
+	<dict>
+		<key>0F71FC248875B67F53494C44B17B40EB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>10F378F039864556F3FA1B9D3002D396</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>41FA54D12162DAD51D02FC58A2CD5034</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5FECFA25793A82ABED31A0829D04708D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A06ADC73C9100600CB9F6FF7ECDE0040</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>ADE6289340874FC65FBC7C6B608785D6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B53104A55CF20546BF80E6F7DFFC7E38</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B883FDDB4A7212945D2B02C70565558F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BBA206747156331F6337F21FE610ECF1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C36CB2CB977A4E7D954935096D00A1ED</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CF671F7E57B92905F1CC91D036D6B4A7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DAD91365650F3EA278BED1617549CFBA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DB57675580E8E058AA3B55CE82AEE039</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E14A62900910444707A5504D25EC98DC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E3D8DECC12E31F750CBF862C7C2FEE9B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
 </dict>
 </plist>

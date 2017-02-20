@@ -9,12 +9,15 @@
 #import "SetingViewController.h"
 #import "UIScrollView+PullScale.h"
 #import "SetingTabViewCell.h"
+#import "TheMoreOperation.h"
+#import <DKNightVersion/DKNightVersion.h>
 
 static NSString *const SETINGTAILCELL = @"setingCellidentifer";
 
 @interface SetingViewController () <UITableViewDelegate, UITableViewDataSource>
 
 @property (nonatomic, strong) UITableView *tableView;
+@property (nonatomic, strong) TheMoreOperation *moreOperation;
 
 @end
 
@@ -52,6 +55,12 @@ static NSString *const SETINGTAILCELL = @"setingCellidentifer";
     [cell settingUIWithSection:indexPath.section];
     return cell;
 }
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    if (indexPath.section == 2) {
+        [self.moreOperation showWithContent:[NSDictionary dictionary]];
+    }
+}
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
     return 45.f;
 }
@@ -87,6 +96,13 @@ static NSString *const SETINGTAILCELL = @"setingCellidentifer";
         _tableView.imageV.image = UIImageMake(@"userinfo_top_bg@2x.jpg");
     }
     return _tableView;
+}
+- (TheMoreOperation *)moreOperation {
+    
+    if (!_moreOperation) {
+        _moreOperation = [[TheMoreOperation alloc] initWithMoreOperation];
+    }
+    return _moreOperation;
 }
 
 - (void)didReceiveMemoryWarning {

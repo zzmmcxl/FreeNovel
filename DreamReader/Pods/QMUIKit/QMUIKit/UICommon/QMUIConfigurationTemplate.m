@@ -108,10 +108,10 @@
     QMUICMI.navBarBackgroundImage = [UIImageMake(@"navigationbar_background") resizableImageWithCapInsets:UIEdgeInsetsMake(0, 2, 0, 2)];                                            // NavBarBackgroundImage
     QMUICMI.navBarShadowImage = [UIImage new];                                                // NavBarShadowImage
     //- QMUICMI.navBarBarTintColor = nil;                                               // NavBarBarTintColor
-    QMUICMI.navBarTintColor = UIColorWhite;                                         // NavBarTintColor
+    QMUICMI.navBarTintColor = TabBarTintColor;                                         // NavBarTintColor
     //- QMUICMI.navBarTintColorHighlighted = [NavBarTintColor colorWithAlphaComponent:NavBarHighlightedAlpha];          // NavBarTintColorHighlighted
     //- QMUICMI.navBarTintColorDisabled = [NavBarTintColor colorWithAlphaComponent:NavBarDisabledAlpha];                // NavBarTintColorDisabled
-    QMUICMI.navBarTitleColor = NavBarTintColor;                                     // NavBarTitleColor
+    QMUICMI.navBarTitleColor = UIColorMakeWithHex(@"#333333");                                     // NavBarTitleColor
     QMUICMI.navBarTitleFont = UIFontBoldMake(17);                                   // NavBarTitleFont
     //- QMUICMI.navBarBackButtonTitlePositionAdjustment = UIOffsetZero;                 // NavBarBarBackButtonTitlePositionAdjustment
     QMUICMI.navBarBackIndicatorImage = [UIImage qmui_imageWithShape:QMUIImageShapeNavBack size:CGSizeMake(12, 20) tintColor:NavBarTintColor];    // NavBarBackIndicatorImage

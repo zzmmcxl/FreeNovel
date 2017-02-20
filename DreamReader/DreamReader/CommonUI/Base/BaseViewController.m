@@ -25,7 +25,7 @@
 #pragma mark - life cycle
 - (void)viewDidLoad {
     [super viewDidLoad];
-
+    
 }
 - (void)initSubviews {
    [super initSubviews];
@@ -55,7 +55,7 @@
 - (void)setupNaviBarWithTitle:(NSString *)title {
 
     [self setTitle:title];
-    [self.titleView.titleLabel setTextColor:UIColorMakeWithHex(@"#333333")];
+   [self.titleView.titleLabel setTextColor:UIColorMakeWithHex(@"#333333")];
 
 //   NSDictionary* dict = @{NSFontAttributeName:Font_20,NSForegroundColorAttributeName:[UIColor whiteColor]};
 //   [self.navigationController.navigationBar setTitleTextAttributes:dict];

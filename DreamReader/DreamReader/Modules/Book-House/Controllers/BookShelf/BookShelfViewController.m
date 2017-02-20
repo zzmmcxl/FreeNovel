@@ -27,6 +27,9 @@
     [self setupNaviBarWithTitle:@"书架"];
     [QMUIHelper renderStatusBarStyleDark];
     [self setupNaviBarWithBtn:NaviLeftBtn title:nil img:@"icon_Search"];
+    
+    [self.navigationController.navigationBar setTintColor:TabBarTintColor];
+
 }
 #pragma mark - setter and getter
 

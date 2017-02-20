@@ -34,18 +34,6 @@ PODS:
   - Masonry (1.0.2)
   - MBProgressHUD (1.0.0)
   - MJRefresh (3.1.12)
-  - MMDrawerController (0.6.0):
-    - MMDrawerController/Core (= 0.6.0)
-    - MMDrawerController/MMDrawerBarButtonItem (= 0.6.0)
-    - MMDrawerController/MMDrawerVisualStates (= 0.6.0)
-    - MMDrawerController/Subclass (= 0.6.0)
-  - MMDrawerController/Core (0.6.0)
-  - MMDrawerController/MMDrawerBarButtonItem (0.6.0):
-    - MMDrawerController/Core
-  - MMDrawerController/MMDrawerVisualStates (0.6.0):
-    - MMDrawerController/Core
-  - MMDrawerController/Subclass (0.6.0):
-    - MMDrawerController/Core
   - QMUIKit (1.2)
   - SDWebImage (4.0.0):
     - SDWebImage/Core (= 4.0.0)
@@ -83,7 +71,6 @@ DEPENDENCIES:
   - LCActionSheet (~> 2.7.2)
   - MBProgressHUD (~> 1.0.0)
   - MJRefresh (~> 3.1.12)
-  - MMDrawerController (~> 0.6.0)
   - QMUIKit (~> 1.2)
   - SDWebImage (~> 4.0.0)
   - SWTableViewCell (~> 0.3.7)
@@ -101,13 +88,12 @@ SPEC CHECKSUMS:
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
   MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
-  MMDrawerController: e3a54a5570388463ad3b36975251575b50c4e1a0
   QMUIKit: 8657144089e3a825ceb3c0f0ffd96c8f5de0653a
   SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
   SWTableViewCell: 2a94aadc9d47b2b611fa064566bf57948b95b579
   UMengUShare: fc0a98b8d5297632e82874318fd72a10d17da228
   WHCNetWorkKit: 169c27c8b8008e8f8d679277929777083a2379b9
 
-PODFILE CHECKSUM: b485b4cc8ca4982b86bc9d4c1e881d424ac61642
+PODFILE CHECKSUM: 129ffa72ee7b4fc11047fb0419834fa21cfd3674
 
 COCOAPODS: 1.2.0
