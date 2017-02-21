@@ -7,7 +7,6 @@
 //
 
 #import "SetingTabViewCell.h"
-#import <DKNightVersion/DKNightVersion.h>
 
 @implementation SetingTabViewCell
 
@@ -44,8 +43,6 @@
     
     UISwitch *switchButton = (UISwitch *)sender;
     BOOL isButton = [switchButton isOn];
-    
-    self.dk_manager.themeVersion = DKThemeVersionNight;
     if ([self.dk_manager.themeVersion isEqualToString:DKThemeVersionNight]) {
         [self.dk_manager dawnComing];
     } else {
@@ -54,7 +51,6 @@
 
     if (isButton) {
         DLog(@"open");
-        
     } else {
         DLog(@"close");
     }

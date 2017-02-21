@@ -17,8 +17,8 @@
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 #import "DefineHeader.h"
+#import <DKNightVersion/DKNightVersion.h>
 
-#import "DefineHeader.h"
 #import "UIImageView+WebCache.h"
 #import "QMUIKit.h"
 #import "QDUIHelper.h"

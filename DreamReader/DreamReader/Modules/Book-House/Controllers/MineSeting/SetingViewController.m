@@ -37,6 +37,7 @@ static NSString *const SETINGTAILCELL = @"setingCellidentifer";
     [self.view setBackgroundColor:UIColorMakeWithHex(@"#F2F2F2")];
 
     [self.view addSubview:self.tableView];
+//    self.view.dk_backgroundColorPicker = DKColorPickerWithKey(BG);
 }
 #pragma mark - UITableViewDataSource
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
